@@ -1,0 +1,28 @@
+/* LanIntro.css */
+
+.container-lanintro {
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px) saturate(150%);
+  border-radius: 15px;
+  padding: 40px; /* 패딩을 더 크게 조정 */
+  width: 60%; /* 박스의 너비를 60%로 증가 */
+  max-width: 1400px; /* 최대 너비를 1400px로 확장 */
+  margin: 0 auto;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: perspective(1000px) rotateX(3deg) rotateY(-3deg);
+}
+
+
+.subheading {
+  color: white;
+}
+
+.background-wrapper {
+  position: relative;
+  width: 100vw; /* 전체 화면 너비를 차지하도록 설정 */
+  height: 115vh; /* 전체 화면 높이를 차지하도록 설정 */
+  overflow: hidden; /* 자식 요소가 요소를 넘어가지 않도록 설정 */
+}
